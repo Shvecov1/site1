@@ -59,6 +59,10 @@
     width: 300px;
     height: 200px;
     margin-right: 10px;
+    background-image: url(../img/deti.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 .deti2 {
@@ -74,6 +78,7 @@
 
 .but {
     margin-top: -250px;
+    
 }
 
 #button {
@@ -85,6 +90,7 @@
     background: transparent;
     border-radius: 4px;
     font-size: 16px;
+    border:solid 2px#4892e7;
 }
 
 #button:hover {
@@ -184,7 +190,7 @@
 }
 
 .news2 { 
-    width: 250px;
+    width: 200px;
     height: 600px;
     font-family: 'Barlow', sans-serif;
     color: black;
@@ -195,7 +201,7 @@
 }
 
 .news3 {  
-    width: 250px;
+    width: 200px;
     height: 600px;
     font-family: 'Barlow', sans-serif;
     color: black;
@@ -206,7 +212,7 @@
 }
 
 .news4 {
-    width: 250px;
+    width: 200px;
     height: 600px;
     font-family: 'Barlow', sans-serif;
     color: black;
@@ -222,6 +228,7 @@
     font-family: 'Barlow', sans-serif;
     text-align: center;
     padding-top: 17px;
+    border-radius: 25px;
 }
 
 .text6 {
@@ -230,7 +237,7 @@
     color: black;
     text-align: left;
     font-size: 18px;
-    padding-left: 40px;
+    padding-left: 10px;
 }
 
 .zag {
@@ -246,10 +253,39 @@
 }
 
 .map {
+    position:relative;
     width: 100%;
-    height: 100vh;
-    background-image: url(../img/map.jpg);
+    height: 100%;
+   
+}
+
+.map1 {
+    width: 50%;
+    height: 75vh;
+    background-color: #2e8df2ce;
+    position: absolute;
+    left: 0;
+    z-index: 100;
+    font-family: 'Russo One', sans-serif;
+    font-size: 68px;
+    color: #ffffff;
+    line-height: 100px;
+    text-align: right;
+    padding-right: 25px;
+    padding-top: 15px;
+    
+    
+
+}
+
+
+.map2 {
+    width: 100%;
+    height: 100%;
     background-size: contain;
+    background-repeat: no-repeat;
+    position:absolute;
+    
 }
 
 .icon {
