@@ -1,0 +1,270 @@
+.html {
+    width: 100%;
+}
+
+.header {
+    
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/forest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header1 {
+    width: 100%;
+    height: 500px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 60px;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 50px;
+
+
+
+}
+
+.header2 {
+    width: 100%;
+    height: 500px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.mid {
+    width: 100%;
+    height: 700px;
+    background-color: aliceblue;
+    font-family: 'Russo One', sans-serif;
+    font-size: 80px;
+    color: #4590e1;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.photo {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    margin-top: 25px;
+    justify-content: center;
+    
+
+
+}
+
+.deti1 {
+    width: 300px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+.deti2 {
+    width: 300px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+.deti3 {
+    width: 300px;
+    height: 200px;
+}
+
+.but {
+    margin-top: -250px;
+}
+
+#button {
+    width: 300px;
+    height: 50px;
+    outline: 20px #4892e7;
+    border-color: #4892e7;
+    color: #4892e7;
+    background: transparent;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#button:hover {
+    border-color: rgb(0, 204, 255);
+    color: rgb(0, 204, 255);
+    box-shadow: 0 0 5px;
+    font-style: #3FB9D9;
+}
+
+.cabinet {
+    width: 100%;
+    height: 1000px;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    font-size: 80px;
+    color: aliceblue;
+    background-image: url(../img/cabinet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+
+
+.text1 {
+    padding-top: 55px;
+    text-align: center;
+}
+
+.cost{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cost1 {
+    width: 250px;
+    height: 325px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+.text2 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 35px;
+    color: black;
+}
+
+.text3 {
+    font-family: 'Barlow', sans-serif;
+    width: 250px;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+
+}
+
+.text44 {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #4590e1;
+    border-radius: 5px;
+    font-size: 28px;
+    font-family: 'Barlow', sans-serif;
+    margin-top: 124px;
+    background-size: contain;
+    background-position:  bottom = 100%;
+}
+
+.news {
+    width: 100%;
+    height: 1000px;
+    background-color: aliceblue;
+}
+
+.text5 {
+    width: 100%;
+    font-family: 'Russo One', sans-serif;
+    font-size: 80px;
+    color: #4590e1;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.news1 {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.news2 { 
+    width: 250px;
+    height: 600px;
+    font-family: 'Barlow', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    outline: 1px solid #000;
+    margin-right: 15px;
+}
+
+.news3 {  
+    width: 250px;
+    height: 600px;
+    font-family: 'Barlow', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    outline: 0.5px solid #000;
+    margin-right: 15px;
+}
+
+.news4 {
+    width: 250px;
+    height: 600px;
+    font-family: 'Barlow', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    outline: 1px solid #000;
+    
+}
+
+.text4 {
+    width: 250px;
+    font-size: 28px;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    padding-top: 17px;
+}
+
+.text6 {
+    width: 200px;
+    font-family: 'Barlow', sans-serif;
+    color: black;
+    text-align: left;
+    font-size: 18px;
+    padding-left: 40px;
+}
+
+.zag {
+    text-align: left;
+    font-family: 'Barlow', sans-serif;
+    font-size: 28px;
+}
+
+.but1 {
+    font-family: 'Barlow', sans-serif;
+    margin-left: 800px;
+    margin-top: 65px;
+}
+
+.map {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/map.jpg);
+    background-size: contain;
+}
+
+.icon {
+    color: #ffffff;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+
+
+    
+
+
+/*
+font-family: 'Russo One', sans-serif;
+font-family: 'Barlow', sans-serif;
+*/
