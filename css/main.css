@@ -310,9 +310,18 @@
 }
 
 .icon {
+    justify-content: center;
+    width: 100px;
+    height: 124px;
     color: #ffffff;
     margin-top: 25px;
     margin-bottom: 25px;
+    margin-left: 890px;
+    background-image: url(../img/play.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
     
 }
 
