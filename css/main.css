@@ -69,15 +69,21 @@
     width: 300px;
     height: 200px;
     margin-right: 10px;
+    background-image: url(../img/deti2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .deti3 {
     width: 300px;
     height: 200px;
+    background-image: url(../img/deti3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .but {
-    margin-top: -250px;
+    margin-top: -300px;
     
 }
 
@@ -137,6 +143,10 @@
     margin-top: 50px;
 }
 
+.cost1:hover {
+    box-shadow: 0px 0px 5px 0px black;
+}
+
 
 .text2 {
     font-family: 'Barlow', sans-serif;
@@ -158,7 +168,7 @@
     width: 100%;
     height: 80px;
     background-color: #4590e1;
-    border-radius: 5px;
+    border-radius: 0 0 25px 25px;
     font-size: 28px;
     font-family: 'Barlow', sans-serif;
     margin-top: 124px;
@@ -200,6 +210,18 @@
     margin-right: 15px;
 }
 
+.news2:hover {
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+.news4:hover {
+    box-shadow: 0px 0px 5px 0px black;
+}
+
+.news3:hover {
+    box-shadow: 0px 0px 5px 0px black;
+}
+
 .news3 {  
     width: 200px;
     height: 600px;
@@ -228,7 +250,6 @@
     font-family: 'Barlow', sans-serif;
     text-align: center;
     padding-top: 17px;
-    border-radius: 25px;
 }
 
 .text6 {
