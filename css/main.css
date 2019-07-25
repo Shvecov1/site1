@@ -11,20 +11,26 @@
     background-size: cover;
 }
 
-.header1 {
+h1 {
     width: 100%;
-    height: 500px;
+    height: 200px;
     font-family: 'Russo One', sans-serif;
     font-size: 60px;
     color: aliceblue;
     text-align: center;
     padding-top: 50px;
-
-
-
+    margin: 0;
 }
 
-.header2 {
+h2 {
+    font-family: 'Russo One', sans-serif;
+    color: #4590e1;
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+
+.header_text {
     width: 100%;
     height: 500px;
     font-family: 'Barlow', sans-serif;
@@ -39,9 +45,6 @@
     background-color: aliceblue;
     font-family: 'Russo One', sans-serif;
     font-size: 80px;
-    color: #4590e1;
-    text-align: center;
-    padding-top: 150px;
 }
 
 .photo {
@@ -83,7 +86,7 @@
 }
 
 .but {
-    margin-top: -300px;
+    margin: -240px 0px 0 810px;
     
 }
 
@@ -100,30 +103,36 @@
 }
 
 #button:hover {
-    border-color: rgb(0, 204, 255);
-    color: rgb(0, 204, 255);
-    box-shadow: 0 0 5px;
-    font-style: #3FB9D9;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    
 }
 
 .cabinet {
     width: 100%;
     height: 1000px;
-    text-align: center;
     font-family: 'Russo One', sans-serif;
     font-size: 80px;
     color: aliceblue;
     background-image: url(../img/cabinet.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    text-align: center;
-
 }
 
 
 .text1 {
-    padding-top: 55px;
-    text-align: center;
+    width: 100%;
+    padding-top: 55px; 
+}
+
+h2.price {
+    color: aliceblue;
+}
+
+h2.news {
+    color: #4590e1;
+    width: 100%;
+    height: 100px;
+    padding-bottom: 25px;
 }
 
 .cost{
@@ -139,14 +148,14 @@
     height: 325px;
     background-color: aliceblue;
     border-radius: 25px;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin: 50px 0 0 50px;
+    transition: 0.3s;
+    position: relative;
 }
 
 .cost1:hover {
-    box-shadow: 0px 0px 5px 0px black;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.5);
 }
-
 
 .text2 {
     font-family: 'Barlow', sans-serif;
@@ -159,8 +168,14 @@
     width: 250px;
     font-size: 25px;
     color: black;
-    text-align: center;
+}
 
+.text3 ul li {
+    list-style: square ;
+}
+
+.price-block-text-wrapper {
+    padding: 24px;
 }
 
 .text44 {
@@ -171,9 +186,10 @@
     border-radius: 0 0 25px 25px;
     font-size: 28px;
     font-family: 'Barlow', sans-serif;
-    margin-top: 124px;
+    margin-top: 52px;
     background-size: contain;
     background-position:  bottom = 100%;
+    position: absolute;
 }
 
 .news {
@@ -188,7 +204,7 @@
     font-size: 80px;
     color: #4590e1;
     text-align: center;
-    padding-top: 100px;
+    
 }
 
 .news1 {
@@ -199,48 +215,30 @@
     margin-top: 50px;
 }
 
-.news2 { 
-    width: 200px;
+.news-block { 
+    width: 300px;
     height: 600px;
     font-family: 'Barlow', sans-serif;
     color: black;
     text-align: center;
     font-size: 16px;
-    outline: 1px solid #000;
+    border: 1px solid #0000004d;
     margin-right: 15px;
+    overflow: hidden;
 }
 
-.news2:hover {
-    box-shadow: 0px 0px 5px 0px black;
+.news-block:hover {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
 }
 
-.news4:hover {
-    box-shadow: 0px 0px 5px 0px black;
+.news-block .image-container {
+    height: 170px;
 }
 
-.news3:hover {
-    box-shadow: 0px 0px 5px 0px black;
-}
-
-.news3 {  
-    width: 200px;
-    height: 600px;
-    font-family: 'Barlow', sans-serif;
-    color: black;
-    text-align: center;
-    font-size: 16px;
-    outline: 0.5px solid #000;
-    margin-right: 15px;
-}
-
-.news4 {
-    width: 200px;
-    height: 600px;
-    font-family: 'Barlow', sans-serif;
-    color: black;
-    text-align: center;
-    font-size: 16px;
-    outline: 1px solid #000;
+.news-block img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
     
 }
 
@@ -259,6 +257,12 @@
     text-align: left;
     font-size: 18px;
     padding-left: 10px;
+    overflow: hidden;
+    margin-top: 65px;
+}
+
+.news-btn-readmore {
+    margin-top: 25px;
 }
 
 .zag {
@@ -268,7 +272,7 @@
 }
 
 .but1 {
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Russo One', sans-serif;
     margin-left: 800px;
     margin-top: 65px;
 }
@@ -277,7 +281,6 @@
     position:relative;
     width: 100%;
     height: 100%;
-   
 }
 
 .map1 {
@@ -294,19 +297,14 @@
     text-align: right;
     padding-right: 25px;
     padding-top: 15px;
-    
-    
-
 }
-
 
 .map2 {
     width: 100%;
     height: 100%;
     background-size: contain;
     background-repeat: no-repeat;
-    position:absolute;
-    
+    position:absolute;   
 }
 
 .icon {
@@ -319,11 +317,13 @@
     margin-left: 890px;
     background-image: url(../img/play.svg);
     background-size: cover;
-    background-repeat: no-repeat;
-    
-    
-    
+    background-repeat: no-repeat;  
 }
+
+.news-btn-readmore {
+    text-decoration: none;
+}
+
 
 
 
