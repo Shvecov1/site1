@@ -27,6 +27,7 @@ h2 {
     color: #4590e1;
     text-align: center;
     margin: 0 0 50px 0;
+    padding: 25px 0 0 0;
 }
 
 
@@ -117,6 +118,7 @@ h2 {
 
 #button:hover {
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
     
 }
 
@@ -143,13 +145,14 @@ h2 {
 
 h2.price {
     color: aliceblue;
+    padding: 60px 0 0 0;
 }
 
 h2.news {
     color: #4590e1;
     width: 100%;
     height: 100px;
-    padding-bottom: 25px;
+    padding: 25px 0 0 0;
 }
 
 .cost{
@@ -172,6 +175,7 @@ h2.news {
 
 .cost1:hover {
     box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
 }
 
 .text2 {
@@ -250,6 +254,7 @@ h2.news {
 
 .news-block:hover {
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s
 }
 
 .news-block .image-container {
@@ -272,18 +277,19 @@ h2.news {
 }
 
 .text6 {
-    width: 200px;
+    width: 250px;
     font-family: 'Barlow', sans-serif;
     color: black;
     text-align: left;
     font-size: 18px;
-    padding-left: 10px;
+    padding: 0 0 0 25px;
     overflow: hidden;
-    margin-top: 65px;
+    
 }
 
 .news-btn-readmore {
-    margin-top: 25px;
+    position: absolute;
+    margin: 100px 0 0 -50px;
 }
 
 .zag {
@@ -294,7 +300,7 @@ h2.news {
 
 .but1 {
     font-family: 'Russo One', sans-serif;
-    margin-left: 800px;
+    margin-left: 770px;
     margin-top: 65px;
 }
 
@@ -339,7 +345,7 @@ h2.news {
     color: #ffffff;
     margin-top: 25px;
     margin-bottom: 25px;
-    margin-left: 890px;
+    margin-left: 860px;
     background-image: url(../img/play.svg);
     background-size: cover;
     background-repeat: no-repeat;  
@@ -348,42 +354,146 @@ h2.news {
 .news-btn-readmore {
     text-decoration: none;
 }
-
+/*
+    Галерея 2 страница
+*/
 .header-photo {
     display: flex;
     background-color: #2e2e2e;
     width: 100%;
     height: 100vh;
     justify-content: center;
+    position: relative;
 }
 
 .photo-image {
     width: 100%;
-    height: auto;
-    justify-content: center;
+    background-size: auto 100%;
+    margin: 0 15px 0 15px;
 }
 
 .photo1 {
-    width: 300px;
-    height: 200px;
-    margin-top: 10px;
-    background-size: contain;
+    width: 350px;
+    height: 250px;
+    background-size: auto 100%;
     background-repeat: no-repeat;
     display: flex;
     overflow: hidden;
     transition: 0.7s;
-    z-index: 3;
-    position: absolute;
-    justify-content: center;
+    z-index: 3; 
     border-radius: 25px;
 }
 
 .photo1:hover {
     width: 1280px;
     height: 720px;
-    transform: scale(1);
+    transition: 0.7s;
     z-index: 4;
+    border-radius: 25px;
+ }
+
+/*
+    Форма обращения
+*/
+
+ .communication {
+     width: 100%;
+     height: 100vh;
+     background-image: url(../img/i-53.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+ }
+
+h2.communication {
+    color: #000000;
+    font-family: 'Russo One', sans-serif;
+    font-size: 120px;
+}
+
+.contact {
+    background-color: #ffffff88;
+    border-radius: 25px;
+    width: 300px;
+    z-index: 30;
+    position: absolute;
+    margin: -720px 0 0 40px;
+    font-family: 'Barlow', sans-serif;
     justify-content: center;
+    margin: -720px 0 0 800px;
+    color: #000000;
+}
+
+.out-call{
+	width: 100%;
+	max-width: 350px;
+}
+
+.form-call{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.form-call div{
+    padding: 15px 0 0 5px;
+}
+
+.bot-send-mail{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.form-call label,.form-call input{
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.form-call label{
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.form-call input{
+	padding: 10px 15px;
+    margin-top: 10px;
+    width: 250px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+}
+
+.form-call input:hover {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+
+.form-call .bot-send-mail{
+	padding: 15px 0 15px 0;
+	margin: 30px 0 15px 5px;
+	background: none;
+	border: none;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	background-color: #ffffff;
+	cursor: pointer;
+	border: 3px #ffffff solid;
+    border-radius: 5px;
+    
+}
+
+.form-call .bot-send-mail:hover{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+
+
+
 
 
 
